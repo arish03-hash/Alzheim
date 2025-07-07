@@ -1,0 +1,33 @@
+# Ignore Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+.venv/
+venv/
+
+# Ignore environment variables and config
+.env
+
+# Ignore OS and editor-specific files
+.DS_Store
+*.log
+.vscode/
+
+# Ignore large ML model files (optional: move to Google Drive/Git LFS if needed)
+models/*.keras
+*.h5
+*.pkl
+
+# Ignore dataset folder (optional if it's too large or private)
+datasets/
+
+# Node / npm (if used)
+node_modules/
+
+# Ignore image files (optional — you can keep some if needed)
+*.jpg
+*.jpeg
+*.png
